@@ -15,33 +15,6 @@
     src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
-
-/* 
-
-.links a {
-    display: block;
-    text-decoration: none;
-    background-color: var(--color-grey-700);
-    padding: 12px 0;
-    border-radius: 8px;
-    width: 100%;
-    text-align: center;
-} */
-
-
-/* 
-.card
-    .card-image
-    .card-header
-        .header-title
-        .header-subtitle
-    .card-body
-        .btn
-        .btn:hover
-
-
-*/
-
 body {
     background-color: var(--color-grey-900);
     margin: 0;
@@ -55,7 +28,8 @@ body {
 .card {
     background-color: var(--color-grey-800);
     border-radius: 0.750rem;
-    padding: 2.5rem;
+    padding: 1.5rem;
+    min-width: 327px;
     /* Default Typography */
     font-family: Inter, sans-serif;
     font-size: 0.875rem;
@@ -88,7 +62,7 @@ body {
 }
 
 .card .card-body {
-    width: auto;
+    width: 100%;
     /* Layout */
     display: flex;
     flex-direction: column;
@@ -110,9 +84,26 @@ body {
     color: var(--color-green);
 }
 
-.btn {
+.btn-dark {
     background-color: var(--color-grey-700);
     border-radius: 0.5rem;
+    /* Typography */
+    font-weight: 700;   
+}
+
+.btn-dark:hover {
+    background-color: var(--color-green);
+    color: var(--color-grey-700);
+}
+
+a.btn {
     padding: 0.75rem 0;
-    /* Layout */
+    /* Typography */
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    cursor: pointer;
 }
