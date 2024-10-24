@@ -5,7 +5,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ## Links
 
 - Solution URL: [GitHub](https://github.com/Michal-Majchrzak/fm-social-links-profile)
-- Live Site URL: 
+- Live Site URL: [GitHubPages](https://michal-majchrzak.github.io/fm-social-links-profile/)
 
 ## Preview
 
