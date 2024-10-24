@@ -9,12 +9,6 @@
     box-sizing: border-box;
 }
 
-/* Typography */
-@font-face {
-    font-family: Inter;
-    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
-}
-
 body {
     background-color: var(--color-grey-900);
     margin: 0;
@@ -57,7 +51,7 @@ body {
     gap: 0.25rem
 }
 
-.card p {
+.card p, .card h1 {
     margin: 0;
 }
 
@@ -70,7 +64,6 @@ body {
 }
 
 .header-title {
-    margin: 0;
     /* Typography */
     font-size: 1.5rem;
     font-weight: 600;
@@ -78,7 +71,6 @@ body {
 }
 
 .header-subtitle {
-    margin: 0;
     /* Typography */
     font-weight: 700;
     color: var(--color-green);
@@ -106,4 +98,22 @@ a.btn {
 
 a.btn:hover {
     cursor: pointer;
+}
+
+/* Mobile - default */
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card {
+        padding: 2.5rem;
+        min-width: 456px;
+    }
+}
+
+/* Desktops */
+@media screen and (min-width: 1024px) {
+    .card {
+        padding: 2.5rem;
+        min-width: 384px;
+    }
 }
